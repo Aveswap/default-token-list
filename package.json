@@ -1,23 +1,23 @@
 {
-  "name": "@sushiswap/default-token-list",
+  "name": "@aveswap/default-token-list",
   "version": "15.1.0",
-  "description": "◦ The SushiSwap default token list",
-  "main": "build/sushiswap-default.tokenlist.json",
+  "description": "◦ The Aveswap default token list",
+  "main": "build/aveswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node internal/write.js > build/sushiswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node internal/write.js > build/aveswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build",
     "sync": "node internal/sync.js"
   },
   "files": [
-    "build/sushiswap-default.tokenlist.json"
+    "build/aveswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/default-token-list.git"
+    "url": "git+https://github.com/aveswap/default-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "aveswap",
     "default",
     "token",
     "list"
@@ -25,14 +25,14 @@
   "author": "Matthew Lilley <hello@matthewlilley.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/aveswap/default-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/aveswap/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
     "@octokit/rest": "^18.6.2",
-    "@sushiswap/sdk": "^5.0.0-canary.22",
+    "@aveswap/sdk": "^5.0.0-canary.56",
     "@uniswap/token-lists": "^1.0.0-beta.19",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
