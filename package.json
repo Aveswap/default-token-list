@@ -1,6 +1,6 @@
 {
   "name": "@aveswapio/default-token-list",
-  "version": "15.1.0",
+  "version": "15.1.1",
   "description": "◦ The Aveswap default token list",
   "main": "build/aveswap-default.tokenlist.json",
   "scripts": {
